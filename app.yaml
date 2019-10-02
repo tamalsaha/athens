@@ -1,0 +1,6 @@
+runtime: go112
+main: ./cmd/proxy
+env_variables:
+  ATHENS_STORAGE_TYPE: gcp
+  GOOGLE_CLOUD_PROJECT: appscode-goproxy
+  ATHENS_STORAGE_GCP_BUCKET: appscode-goproxy.appspot.com
